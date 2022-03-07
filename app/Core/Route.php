@@ -1,0 +1,13 @@
+<?php
+$route["default"]="Welcome/";
+$route["Logout"]="Home/logout";
+$route["Data_profil_pengajar"]="pengajar/Profil/";
+$route["update_profil_pengajar"]="pengajar/Profil/update_profil";
+$route["Data_profil_peserta"]="peserta/Profil/";
+$route["update_profil_peserta"]="peserta/Profil/update_profil";
+$route["Load_data_pertemuan"]="pengajar/Pertemuan/load_list";
+$route["Tambah_modul_baru"]="pengajar/Modul/insert";
+$route["Hapus_data_modul"]="pengajar/Modul/delete";
+$route["Hapus_tugas_pertemuan"]="pengajar/Tugas_pertemuan/delete";
+$route["Kirim_tugas"]="peserta/Tugas_pertemuan/kirim_tugas";
+?>
